@@ -101,8 +101,20 @@ ng serve --port=4201
 Once the server starts, open the application in a browser:
 
 ```sh
-[ng serve](http://localhost:4200)
+http://localhost:4200
 ```
 
+## **6.(Optional) Build for Production**
+To create a production-ready build, run:
 
+```sh
+ng build --prod
+```
+## **7.(Optional) Troubleshooting**
+If the server fails to start, try the following:
 
+```sh
+rm -rf node_modules package-lock.json
+npm install
+ng serve
+```
