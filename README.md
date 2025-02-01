@@ -69,14 +69,14 @@ Before starting, ensure you have the following installed on your system:
 If you haven't already downloaded the repository, clone it using:
 
 ```sh
-git clone <[vetty-main](https://github.com/tsarrasputin/vetty)>
+git clone https://github.com/tsarrasputin/vetty
 ```
 
 ## **2. Navigate to the Project Directory**
 Move into the project folder:
 
 ```sh
-cd <vetty>
+cd vetty
 ```
 
 ## **3. Install Dependencies**
