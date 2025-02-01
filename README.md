@@ -56,7 +56,7 @@ We want to implement a **Jira board** to track cards categorized into lists.
 
 ---
 
-# **Project Setup & Run Guide**
+# **Project Setup & Run**
 
 ## **Prerequisites**
 Before starting, ensure you have the following installed on your system:
@@ -70,3 +70,39 @@ If you haven't already downloaded the repository, clone it using:
 
 ```sh
 git clone <repository_url>
+```
+
+## **2. Navigate to the Project Directory**
+Move into the project folder:
+
+```sh
+cd <Shivam_solution>
+```
+
+## **3. Install Dependencies**
+Run the following command to install required dependencies:
+
+```sh
+npm install
+```
+
+## **4. Start the Development Server**
+Run the Angular application with:
+
+```sh
+ng serve
+```
+To run it on a specific port:
+
+```sh
+ng serve --port=4201
+```
+## **5. Open in Browser**
+Once the server starts, open the application in a browser:
+
+```sh
+[ng serve](http://localhost:4200)
+```
+
+
+
